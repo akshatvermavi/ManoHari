@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background: #2c3e50;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.product-card {
+  background: #f4f4f4;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.product-detail {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 1rem;
+}
