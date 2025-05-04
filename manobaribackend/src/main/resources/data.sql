@@ -1,0 +1,8 @@
+INSERT INTO product (id, name, description, brand, price, category, date, quantity) VALUES
+                                                                                        (101, 'Men Cotton Shirt', 'Slim fit, breathable cotton fabric ideal for summers.', 'Peter England', 1299.00, 'Shirt', DATE '2023-07-10', 15),
+                                                                                        (102, 'Women Denim Jeans', 'High-rise, stretchable jeans with classic finish.', 'Levis', 2199.00, 'Jeans', DATE '2023-07-12', 20),
+                                                                                        (103, 'Unisex Hoodie', 'Soft fleece hoodie with front pocket and drawstring.', 'H&M', 1799.00, 'Hoodie', DATE '2023-07-15', 10),
+                                                                                        (104, 'Men Formal Trousers', 'Regular fit formal trousers suitable for office wear.', 'Van Heusen', 1999.00, 'Trousers', DATE '2023-07-18', 25),
+                                                                                        (105, 'Women Kurti', 'Printed A-line kurti with 3/4 sleeves.', 'W for Woman', 1499.00, 'Kurti', DATE '2023-07-20', 18),
+                                                                                        (106, 'Sports T-Shirt', 'Dry-fit t-shirt ideal for gym and outdoor sports.', 'Nike', 1299.00, 'T-Shirt', DATE '2023-07-22', 30),
+                                                                                        (107, 'Men Casual Jacket', 'Lightweight bomber jacket for casual wear.', 'Roadster', 2499.00, 'Jacket', DATE '2023-07-25', 12);
