@@ -2,10 +2,7 @@ package com.akshatvermavi.manobaribackend.model;
 
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -27,10 +24,41 @@ public class Product {
     private double price;
     private String category;
 
-    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-mm-yyyy")
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy")// 3rd ui its handelled by itself
     private Date date;
     private int quantity;
 
+    private String image;
+
+    private String imageType;
+    @Lob // for large object
+    private byte[] imageBytes;
+
+    public String getImageName() {
+        return image;
+    }
+
+    public void setImageName(String image) {
+        this.image = image;
+    }
+
+    public String getImageType() {
+        return imageType;
+    }
+
+    public void setImageType(String imageType) {
+        this.imageType = imageType;
+    }
+
+    public byte[] getImageData() {
+        return imageBytes;
+    }
+
+    public void setImageData(byte[] imageBytes) {
+        this.imageBytes = imageBytes;
+    }
+
+    
     // my data is showing in h2 server http://localhost:8080/h2-console/ but not in http://localhost:8080/api/products it is showing only blank
     // so need to add getter setter for above
 
