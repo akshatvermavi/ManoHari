@@ -1,0 +1,27 @@
+# Backend
+backend/target/
+backend/.env
+backend/*.env
+backend/src/main/resources/application-prod.properties
+
+# Frontend
+frontend/.env.local
+frontend/.env
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Credentials - NEVER COMMIT
+docs/PRIVATE_README.md
+*.env
+*.env.*
+!*.env.example
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db

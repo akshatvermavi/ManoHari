@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+  --primary: #1a1a2e;
+  --gold: #e2c27d;
+  --accent: #e94560;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body { background: #fff; color: #1a1a2e; font-family: 'Inter', sans-serif; }
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-primary-light transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-gold {
+    @apply bg-gold text-primary px-6 py-3 rounded-lg font-semibold hover:bg-gold-dark transition-all duration-200;
+  }
+  .btn-outline {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-white transition-all duration-200;
+  }
+  .input-field {
+    @apply w-full border border-gray-300 rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent transition-all;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden;
+  }
+  /* .product-card {
+    @apply card hover:shadow-lg transition-all duration-300 cursor-pointer group;
+  } */
+  .product-card {
+  @apply hover:shadow-lg transition-all duration-300 cursor-pointer;
+  }
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .section-title {
+    @apply text-2xl md:text-3xl font-display font-bold text-primary;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f1f1; }
+::-webkit-scrollbar-thumb { background: #c9a84c; border-radius: 3px; }
+
+/* Search dropdown */
+.search-dropdown {
+  animation: slideDown 0.2s ease-out;
+}
+
+/* Swiper custom */
+.swiper-pagination-bullet-active { background: var(--gold) !important; }
+.swiper-button-next::after, .swiper-button-prev::after { font-size: 18px !important; color: var(--primary); }
