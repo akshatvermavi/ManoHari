@@ -246,4 +246,3 @@ Settlement → UPI ID: 7634066879@ptyes
 ## 📧 Contact
 
 Built with ❤️ for ManoHari Fashion & Lifestyle.
-Payment inquiries: UPI `7634066879@ptyes`
