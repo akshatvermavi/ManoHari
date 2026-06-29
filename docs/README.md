@@ -4,6 +4,30 @@
 
 ---
 
+## 🎬 Demo Video
+
+[![ManoHari Demo Video](https://img.youtube.com/vi/PuYp5uR8_2E/maxresdefault.jpg)](https://youtu.be/PuYp5uR8_2E)
+
+> 🔗 **[Click to Watch Full Demo on YouTube →](https://youtu.be/PuYp5uR8_2E)**
+
+---
+
+## 📸 Screenshots
+
+<div align="center">
+
+| Home | Search | Signup |
+|------|--------|---------|
+| ![Home](https://raw.githubusercontent.com/akshatvermavi/ManoHari/main/docs/Screenshot%202026-06-19%20005323.png) | ![Search](https://raw.githubusercontent.com/akshatvermavi/ManoHari/main/docs/Screenshot%202026-06-19%20005346.png) | ![Product](https://raw.githubusercontent.com/akshatvermavi/ManoHari/main/docs/Screenshot%202026-06-19%20005359.png) |
+
+| SignIn | About | Admin |
+|------|----------|-------|
+| ![Cart](https://raw.githubusercontent.com/akshatvermavi/ManoHari/main/docs/Screenshot%202026-06-19%20005417.png) | ![Checkout](https://raw.githubusercontent.com/akshatvermavi/ManoHari/main/docs/Screenshot%202026-06-19%20005430.png) | — |
+
+</div>
+
+---
+
 ## ✨ Features
 
 ### 🛒 Shopping Experience
@@ -205,20 +229,6 @@ Order status → CONFIRMED, cart cleared, confirmation email sent
        ↓
 Settlement → UPI ID: 7634066879@ptyes
 ```
-
----
-
-## 📱 Screenshots
-
-| Page     | Description                                                   |
-| -------- | ------------------------------------------------------------- |
-| Home     | Hero banner, categories, featured products, new arrivals      |
-| Search   | Real-time suggestions below search box, filters, sort         |
-| Product  | Image gallery, variants, size picker, add to cart             |
-| Cart     | Items, quantities, free delivery badge, checkout              |
-| Checkout | Address selection/creation, order summary, Razorpay pay       |
-| Profile  | Edit info, avatar upload, saved addresses                     |
-| Admin    | Dashboard cards, product CRUD with image upload, order status |
 
 ---
 
